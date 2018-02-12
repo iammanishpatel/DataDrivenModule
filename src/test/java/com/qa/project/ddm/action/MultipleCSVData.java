@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.List;
-import org.testng.annotations.Test;
 import com.opencsv.CSVReader;
 import com.qa.project.ddm.driver.DriverFactory;
 
@@ -14,7 +13,6 @@ public class MultipleCSVData {
 	
 	public static final String path_csvDataSheet="src//test//java//com//qa//project//ddm//data//words.csv";
 	
-
 	public static void translatorSetUp() throws InterruptedException{
 		String requiredLanguageMenuPath, requiredLanguagePath;
 		requiredLanguageMenuPath = "//div[@id='gt-tl-gms']";
@@ -48,7 +46,7 @@ public class MultipleCSVData {
 				 output = DriverFactory.getTextByXpath(path_output);
 				 System.out.println(output);
 				 sb.append(output);
-			     sb.append(", ");
+				 sb.append(", ");
 				 Thread.sleep(500);
 			}  	 
 		}
