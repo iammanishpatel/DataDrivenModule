@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12220" started-at="2018-02-12T10:44:08Z" finished-at="2018-02-12T10:44:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12220" started-at="2018-02-12T10:44:08Z" finished-at="2018-02-12T10:44:20Z">
+      <class name="com.qa.project.ddm.main.Main">
+        <test-method status="PASS" signature="urlInitiation()[pri:1, instance:com.qa.project.ddm.main.Main@15d0c81b]" name="urlInitiation" duration-ms="5982" started-at="2018-02-12T16:14:08Z" finished-at="2018-02-12T16:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlInitiation -->
+        <test-method status="PASS" signature="translatorSetUp()[pri:2, instance:com.qa.project.ddm.main.Main@15d0c81b]" name="translatorSetUp" duration-ms="630" started-at="2018-02-12T16:14:14Z" finished-at="2018-02-12T16:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- translatorSetUp -->
+        <test-method status="PASS" signature="readContent()[pri:3, instance:com.qa.project.ddm.main.Main@15d0c81b]" name="readContent" duration-ms="5589" started-at="2018-02-12T16:14:14Z" finished-at="2018-02-12T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readContent -->
+      </class> <!-- com.qa.project.ddm.main.Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
